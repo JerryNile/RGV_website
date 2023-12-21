@@ -5,6 +5,7 @@ $(window).on("load", function () {
   gsap.to("#theory", 0, { display: "none" });
   gsap.to("#project", 0, { display: "none" });
   gsap.to("#activity", 0, { display: "none" });
+  gsap.to("#contact", 0, { display: "none" });
   gsap.to("#studio-about-stella", 0, { display: "none" });
   gsap.to("#studio-about-dualx", 0, { display: "none" });
   gsap.to("#project-about-poems", 0, { display: "none" });
@@ -100,6 +101,7 @@ $(function () {
     gsap.to("#navigation-content", 0, { y: "-100%", delay: 0.7 });
     gsap.to("#header", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
@@ -120,6 +122,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#project", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
@@ -138,6 +141,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#project", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
@@ -156,6 +160,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
@@ -174,6 +179,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
@@ -193,6 +199,7 @@ $(function () {
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#project", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
@@ -211,6 +218,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
     gsap.to("#project", 0, { display: "none" });
@@ -229,6 +237,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#project-about-poems", 0, { display: "none" });
     gsap.to("#project", 0, { display: "none" });
@@ -247,6 +256,7 @@ $(function () {
     gsap.to("#about", 0, { display: "none" });
     gsap.to("#theory", 0, { display: "none" });
     gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "none" });
     gsap.to("#studio-about-stella", 0, { display: "none" });
     gsap.to("#studio-about-dualx", 0, { display: "none" });
     gsap.to("#project", 0, { display: "none" });
@@ -256,6 +266,25 @@ $(function () {
     gsap.to("#breaker", 0, { display: "none", delay: 2 });
     gsap.to("#breaker-two", 0, { display: "none", delay: 2 });
     gsap.to("#project-about-poems", 0, { display: "block", delay: 0.7 });
+    gsap.to("#navigation-content", 0, { display: "flex", delay: 2 });
+  });
+  $("#contact-link").on("click", function () {
+    gsap.to("#navigation-content", 0, { display: "none", delay: 0.7 });
+    gsap.to("#navigation-content", 0, { y: "-100%", delay: 0.7 });
+    gsap.to("#header", 0, { display: "none" });
+    gsap.to("#about", 0, { display: "none" });
+    gsap.to("#theory", 0, { display: "none" });
+    gsap.to("#studio", 0, { display: "none" });
+    gsap.to("#studio-about-stella", 0, { display: "none" });
+    gsap.to("#studio-about-dualx", 0, { display: "none" });
+    gsap.to("#project", 0, { display: "none" });
+    gsap.to("#activity", 0, { display: "none" });
+    gsap.to("#breaker", 0, { display: "block" });
+    gsap.to("#breaker-two", 0, { display: "block", delay: 0.1 });
+    gsap.to("#breaker", 0, { display: "none", delay: 2 });
+    gsap.to("#breaker-two", 0, { display: "none", delay: 2 });
+    gsap.to("#project-about-poems", 0, { display: "none" });
+    gsap.to("#contact", 0, { display: "block", delay: 0.7 });
     gsap.to("#navigation-content", 0, { display: "flex", delay: 2 });
   });
 });
