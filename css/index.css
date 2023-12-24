@@ -998,7 +998,6 @@ body{
     opacity: .6;
     transition:  scale .4s ease;
 }
-
 #blog{
     background: #101010;
     display: none;
